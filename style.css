@@ -1,0 +1,64 @@
+@media screen {
+#businessCard {
+    font-family: 'Pacifico', cursive;
+    color: black;
+    border: 2px solid gray;
+    height: 14em;
+    width: 22em;
+    margin-top:75px;
+    background-image: url("background.jfif");
+    background-repeat: no-repeat;
+    background-size: 22em 20em;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+body{
+    text-align: center;
+    background-image: url("fullbackground.jpg");
+    color:skyblue;
+}
+#postFullName {
+    text-align:center;
+    vertical-align:top;
+    font-weight:bolder;
+}
+h1 {
+    color:silver;
+    font-style: cursive;
+}
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer {
+    bottom: 0;
+    font-family: 'Cedarville Cursive', cursive;
+}
+}
+@media print {
+    #businessCard {
+        font-family: 'Pacifico', cursive;
+    color: black;
+    border: 2px solid gray;
+    height: 14em;
+    width: 22em;
+    margin-top:75px;
+    background-image: url("background.jfif");
+    background-repeat: no-repeat;
+    background-size: 22em 20em;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    -webkit-print-color-adjust: exact;
+    }
+    .print {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    
+}
